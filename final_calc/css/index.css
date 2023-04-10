@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.container {
+    background-color: #1F1F1F;
+    width: 50%;
+    margin-top: 25vh;
+    margin-left: 25%;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+#display {
+    height: 100px;
+    font-size: 3em;
+    color: white;
+    display: flex;
+    margin-right: 6%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.teclado div {
+    display: flex;    
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1;
+    width: 100px;
+    height: 50px;
+    margin: 1px;
+    border-radius: 4px;
+    color: white;
+}
+
+.operator {
+    background-color: #323232;
+}
+
+.number {
+    background-color: #3A3A3A;
+}
+
+.equal {
+    background-color: #4CC2FF;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
