@@ -6,6 +6,4 @@
 
 * A segunda será desenvolvida levando em conta os fatores citados acima.
 
-<p align=center> 
- <img src="final_calc.png" width=500> </img>
-</p>
+
