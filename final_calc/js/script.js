@@ -39,7 +39,7 @@ const fillNumberVariable = (number) => {
         else
             secondNumber += number;
 
-        display.innerHTML = firstNumber + operator + secondNumber;
+        display.innerHTML = `${firstNumber}${operator}${secondNumber}`;
     }
 }
 
