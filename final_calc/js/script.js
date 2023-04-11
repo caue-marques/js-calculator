@@ -1,3 +1,5 @@
+"use strict";
+
 const display = document.getElementById("display");
 let firstNumber = 0;
 let secondNumber = 0;
@@ -24,7 +26,7 @@ function main() {
 }
 
 const fillNumberVariable = (number) => {
-    if (operator === undefined || operator === null) {
+    if (!operator) {
         if (firstNumber === 0)
             firstNumber = number;
         else
